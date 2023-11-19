@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">  
+        <link rel="stylesheet" href="styles.css">
+            <title>spotify</title>
+        </meta>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="logo"><img src="logo.png"/><span>My_player</span></li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            
+            <div class="songlist">
+            <h2>no copyrights</h2>
+            <div class="songitems">
+                <div class="songItem">
+                    <img src="covers/cover.jpg">
+                    <span class="name">Heeriyee</span>
+                    <span class="songlistplay"><span class="timest">05:34 <i id="1" class="fas songplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+           
+                <div class="songItem">
+                    <img src="covers/cover.jpg">
+                    <span class="name">Heeriyee</span>
+                    <span class="songlistplay"><span class="timest">05:34 <i id="2" class="fas songplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+           
+                <div class="songItem">
+                    <img src="covers/cover.jpg">
+                    <span class="name">Heeriyee</span>
+                    <span class="songlistplay"><span class="timest">05:34 <i id="3" class="fas songplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+           
+                <div class="songItem">
+                    <img src="covers/cover.jpg">
+                    <span class="name">Heeriyee</span>
+                    <span class="songlistplay"><span class="timest">05:34 <i id="4" class="fas songplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover.jpg">
+                    <span class="name">Heeriyee</span>
+                    <span class="songlistplay"><span class="timest">05:34 <i id="5" class="fas songplay fa-regular fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+            <div class="songbanner"></div>
+        </div>
+
+        <div class="options">
+            <input type="range" id="progressbar" min="0" max="100" value="0"> 
+            <div class="icons">
+                <i class="fas fa-3x fa-solid fa-backward-step" id="back"></i>
+                <i class="fas fa-3x fa-regular fa-circle-play" id="play"></i>
+                <i class="fas fa-3x fa-solid fa-forward-step" id="next"></i>
+            </div>
+            <div class="songinfo">
+                <img src="playing.gif" width="42px" id="gif"><span class="cursong" ></span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
